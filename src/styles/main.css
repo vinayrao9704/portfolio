@@ -1,0 +1,49 @@
+.main__container {
+    height: 100vh;
+    width: 100%;
+    background-color: #4BC6B9;
+    background-image: url("../pia23378-16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(50, 194, 139, 0.541);
+    z-index: 2;
+}
+
+.main__content {
+    z-index: 4;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.break {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    /* background: linear-gradient(0.25turn, #3d87a6, #ebf8e1, #f69d3c); */
+    background: linear-gradient(0.25turn, black, white, black);
+}
+
+.main__content p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+
+.main__heading {
+    margin: 0;
+    font-weight: 1000;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+}
